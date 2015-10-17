@@ -39,6 +39,30 @@ include($path);
             <div class="col-xs-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
+                        <h3 class="panel-title">Download Eclipse <small>Oct 17</small></h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            If we are going to be making entire programs in class now, Dr. Java simply wont be sufficient. We are going to be using a free professional IDE called Eclipse. Please go to their website and follow these instructions: <a href="https://www.eclipse.org/downloads/" target="_blank">www.eclipse.org/downloads/</a>
+                        </p>
+                        <ol>
+                            <li>
+                                Download the Installer
+                                <ol>
+                                    <li>Under "Try the Eclipse Installer", select the appropriate operating system you are running. The school computers would be Windows 64-bit</li>
+                                    <li>Click on the orange "Download" button on the <strong>left</strong> side of the screen.</li>
+                                </ol>
+                            </li>
+                            <li>Run the Installer</li>
+                            <li>Click on "Java IDE for Java Developers" <strong>It is important you do not click on anything other than that, for example, do not click on "Java IDE for Java EE Developers"</strong></li>
+                            <li>Click Install</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
                         <h3 class="panel-title">Menu Project <small>Oct 16</small></h3>
                     </div>
                     <div class="panel-body">
