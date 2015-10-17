@@ -9,6 +9,14 @@
         
     ?>  
 	<title>Projects | Skunk Works</title>
+    <style>
+        .panel-default {
+            box-shadow: 0 0 7px rgba(136,136,136,.75);
+        }
+        #heading {
+            padding-bottom: 7px;
+        }
+    </style>
 </head>
 <body>
 
@@ -25,7 +33,7 @@ include($path);
 	<div class="container">
 		<div class="row">
             <div class="col-xs-12">
-                <h1>Projects</h1>
+                <h1 id="heading">Projects</h1>
             </div>
             <div class="col-xs-12">
                 <div class="panel panel-default">
