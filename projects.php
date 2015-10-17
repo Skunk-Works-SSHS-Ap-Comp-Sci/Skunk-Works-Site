@@ -99,6 +99,8 @@ include($path);
         $('div div.panel-default').each(function() {
             var x = Math.floor(Math.random() * 10) + 1;
             var y = Math.floor(Math.random() * 10) + 1;
+            if(Math.random() > .5) x *= -1;
+            if(Math.random() > .5) y *= -1;
             var trans = "translate(" + x + "px, " + y + "px)";
             if(run)$(this).css("transform", trans);
         });
