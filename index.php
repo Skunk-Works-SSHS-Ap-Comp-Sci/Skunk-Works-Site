@@ -9,7 +9,11 @@
         
     ?>  
 	<title>Skunk Works</title>
-
+	<style>
+		#affSites {
+			margin-top: 0;
+		}
+	</style>
 </head>
 <body>
 
@@ -32,7 +36,7 @@ include($path);
             	</p>
             </div>
             <div class="col-xs-12 col-sm-3">
-            	<h2>Affiliated Sites</h2>
+            	<h2 id="affSites">Affiliated Sites</h2>
             	<div class="row">
             		<div class="col-xs-12">
             			<a href="https://www.tinycountrygames.com/" target="_blank"><img src="/images/layout/tcg.png" alt="Tiny Country Games" class="img-responsive img-logo"></a>
