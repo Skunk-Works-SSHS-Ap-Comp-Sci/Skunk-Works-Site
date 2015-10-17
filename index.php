@@ -36,6 +36,10 @@ include($path);
             	</p>
             </div>
             <div class="col-xs-12 col-sm-3">
+            	<h2>Board</h2>
+            	<p>CEO - Spencer Forman</p>
+            	<p>COO - Tristan Hennerty</p>
+            	<p>CIO - Jos&eacute; Rodriguez-Rivas</p>
             	<h2 id="affSites">Affiliated Sites</h2>
             	<div class="row">
             		<div class="col-xs-12">
