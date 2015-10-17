@@ -1,0 +1,124 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700|Roboto:400italic,700italic,700,400);
+@import url(bootstrap.min.css);
+@import url(font-awesome.min.css);
+
+body { 
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Roboto', sans-serif; 
+    font-size: 24px; 
+    margin-top: 20px; 
+    line-height: 30px; 
+}
+h1 { 
+    font-size: 32px; 
+    margin-top: 0px; 
+}
+
+header {
+    
+}
+
+.navbar-default { 
+}
+
+.navbar-default .navbar-brand {
+    color: rgb(119,119,119);
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: rgb(94,94,94);
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a { 
+    color: rgb(119,119,119);
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: rgb(85,85,85);
+    background-color: rgb(231,231,231);
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: rgb(85,85,85);
+    background-color: rgb(231,231,231);
+}
+
+.navbar-default .navbar-nav>li>a>.fa {
+    font-size: 18px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: rgb(85, 85, 85);
+    background-color: rgb(231,231,231);
+}
+
+#content-wrapper {
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(248,248,248); 
+}
+
+#ftr-wrapper {
+    background-color: rgb(200,200,200);
+    padding: 20px 0px; 
+}
+
+#ftr-nav ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+#ftr-nav li {
+    float: left;
+    display: inline;
+}
+
+#ftr-nav a {
+    color: rgb(50, 50, 50);
+    padding: 10px 10px 10px 0;
+}
+
+#ftr-row2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#ftr-row2 a { 
+    color: rgb(50, 50, 50); 
+}
+#ftr-row2 a:hover, #ftr-row2 a:focus, #ftr-row2 a:active { 
+    color: rgb(100, 100, 100); 
+}
+
+#ftr-row2>#git>#gitHub {
+    padding-bottom: 24px;
+}
+
+#ftr-row2>#git>p>a>.fa {
+    position: absolute;
+    font-size: 18px;
+    -webkit-transition: all .25s; /* For Safari 3.1 to 6.0 */
+    transition: all .25s;
+    text-shadow: none;
+}
+
+#ftr-row2>#git>p>a>.fa:hover {
+    font-size: 24px;
+    -webkit-transition: all .25s; /* For Safari 3.1 to 6.0 */
+    transition: all .25s;
+    text-shadow: 10px 10px 10px rgb(136,136,136);
+}
+
+#ftr-row2>#copy, #ftr-row2>#dev {
+    padding-top: 20px;
+}
+
+.img-logo {
+    max-width: 95%;
+    padding-top: 20px;
+}
