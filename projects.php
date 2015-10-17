@@ -102,7 +102,11 @@ include($path);
             if(Math.random() > .5) x *= -1;
             if(Math.random() > .5) y *= -1;
             var trans = "translate(" + x + "px, " + y + "px)";
-            if(run)$(this).css("transform", trans);
+            if(run) {
+                $(this).css("transform", trans);
+            } else {
+                $(this).css("transform", "translate(0px, 0px)");
+            }
         });
     }
 
