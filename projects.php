@@ -12,6 +12,7 @@
     <style>
         .panel-default {
             box-shadow: 0 0 7px rgba(136,136,136,.75);
+            transition: all .1s;
         }
         #heading {
             padding-bottom: 7px;
@@ -91,5 +92,28 @@ $path .= "/inc/javascript.php";
 include($path);
 
 ?>
+<script src="/js/konami.js"></script>
+<script>
+    var run = false;
+    function randTrans() {
+        $('div div.panel-default').each(function() {
+            var x = Math.floor(Math.random() * 10) + 1;
+            var y = Math.floor(Math.random() * 10) + 1;
+            var trans = "translate(" + x + "px, " + y + "px)";
+            if(run)$(this).css("transform", trans);
+        });
+    }
+
+
+    var easter_egg = new Konami();
+
+    easter_egg.code = function () {
+        run = !run;
+        setInterval(randTrans, 100);
+    }
+
+    easter_egg.load();
+</script>
+
 </body>
 </html>
