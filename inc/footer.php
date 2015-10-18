@@ -22,7 +22,7 @@ echo'
 						GitHub:
 					</p>
 					<p id="gitHub">
-						<a href=""><i class="fa fa-github"></i></a>
+						<a href="https://github.com/Skunk-Works-SSHS-Ap-Comp-Sci" target="_blank"><i class="fa fa-github"></i></a>
 					</p>
 				</div>
 				<div class="col-xs-12 col-sm-5" id="copy">
