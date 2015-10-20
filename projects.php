@@ -58,7 +58,7 @@ include($path);
                                 <li>Go to the GitHub repository: <a href="https://github.com/Skunk-Works-SSHS-Ap-Comp-Sci/Classroom-Assignments" target="_blank">https://github.com/Skunk-Works-SSHS-Ap-Comp-Sci/Classroom-Assignments</a></li>
                                 <li>On the top right side of the screen, find the button that says "Fork" and click it</li>
                                 <li>
-                                    Click on your profile picture the repository into your account
+                                    Click on your profile picture to fork the repository into your account
                                     <ul>
                                         <li class="text-info">Note that forking a repository means to make your own version of the repository so that you can make changes independent of the other contributors.</li>
                                     </ul>
